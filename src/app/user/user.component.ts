@@ -20,11 +20,11 @@ export class UserComponent {
   @Input({ required: true }) user!: User;
   @Output() select = new EventEmitter<string>();
 
-  onSelectUser() {
-    this.select.emit(this.user.id);
-  }
-
   get imagePath() {
     return 'assets/users/' + this.user.avatar;
+  }
+
+  onSelectUser() {
+    this.select.emit(this.user.id);
   }
 }
