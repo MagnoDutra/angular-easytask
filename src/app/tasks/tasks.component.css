@@ -61,3 +61,23 @@ ul {
     width: auto;
   }
 }
+
+/* #tasks::-webkit-scrollbar,
+ul::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+#tasks::-webkit-scrollbar-track,
+ul::-webkit-scrollbar-track {
+  background: #3a2c54;
+}
+#tasks::-webkit-scrollbar-thumb,
+ul::-webkit-scrollbar-thumb {
+  background-color: #9965dd;
+  border-radius: 10px;
+  border: 2px solid #3a2c54;
+}
+#tasks::-webkit-scrollbar-thumb:hover,
+ul::-webkit-scrollbar-thumb:hover {
+  background-color: #a565dd;
+} */
